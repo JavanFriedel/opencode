@@ -1,6 +1,6 @@
 - To regenerate the JavaScript SDK, run `./packages/sdk/js/script/build.ts`.
-- The default branch in this repo is `dev`.
-- Local `main` ref may not exist; use `dev` or `origin/dev` for diffs.
+- The default branch in this repo is `neo`.
+- Upstream tracking branch is `dev`; use `dev` or `origin/dev` for upstream diffs.
 
 ## Commits and PR Titles
 
