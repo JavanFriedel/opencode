@@ -24,8 +24,8 @@ const testStateLayer = Layer.effectDiscard(
     const original = {
       OPENCODE_SERVER_PASSWORD: Flag.OPENCODE_SERVER_PASSWORD,
       OPENCODE_SERVER_USERNAME: Flag.OPENCODE_SERVER_USERNAME,
-      envPassword: process.env.OPENCODE_SERVER_PASSWORD,
-      envUsername: process.env.OPENCODE_SERVER_USERNAME,
+      envPassword: process.env.OPENCODE_NEO_SERVER_PASSWORD,
+      envUsername: process.env.OPENCODE_NEO_SERVER_USERNAME,
     }
 
     yield* Effect.addFinalizer(() =>

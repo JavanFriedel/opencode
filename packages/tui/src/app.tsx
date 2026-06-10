@@ -264,8 +264,8 @@ export const run = Effect.fn("Tui.run")(function* (input: TuiInput) {
                     >
                       <TuiStartupProvider
                         value={{
-                          initialRoute: process.env.OPENCODE_ROUTE ? JSON.parse(process.env.OPENCODE_ROUTE) : undefined,
-                          skipInitialLoading: Boolean(process.env.OPENCODE_FAST_BOOT),
+                          initialRoute: process.env.OPENCODE_NEO_ROUTE ? JSON.parse(process.env.OPENCODE_NEO_ROUTE) : undefined,
+                          skipInitialLoading: Boolean(process.env.OPENCODE_NEO_FAST_BOOT),
                         }}
                       >
                         <ClipboardProvider>
